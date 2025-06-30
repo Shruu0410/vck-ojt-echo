@@ -3,7 +3,6 @@ import Header from "../components/Header/Header";
 const AboutPage = () => {
     return(
       <div className="root">
-         
             <Header/>
             <div className="page-container" style={{overFlow:"auto"}}>
             <h1>AboutPage </h1>
