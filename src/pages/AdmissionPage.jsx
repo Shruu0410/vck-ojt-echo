@@ -3,8 +3,8 @@ import Header from "../components/Header/Header";
 const AdmissionPage = () =>{
     return(
         <div className="root">
-         <div className="page-container" style={{overflow:"auto"}}>
             <Header/>
+            <div className="page-container" style={{overFlow:"auto"}}>
             <h1> Admission Page Vivekanand College </h1>
             <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
             <p>Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p>

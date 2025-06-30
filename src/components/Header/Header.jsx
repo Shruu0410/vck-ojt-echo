@@ -6,12 +6,12 @@ const Header = () => {
             <header className='header1'>
                 <nav>
                     <a className='navbar'>Vivekanand College</a>
-                    <Link to={"/home"} className='nav'>Home</Link>
-                    <Link to={"/about"}className='nav'>About</Link>
-                    <Link to={"/contact"}className='nav'>Contact</Link>
-                    <Link to={"/courses"}className='nav'>courses</Link>
-                    <Link to={"/admission"}className='navitem'>Apply Now </Link>
-                    <Link to={"/notfound"}className='nav'>notFound</Link>
+                    <Link to={"/Home"} className='nav'>Home</Link>
+                    <Link to={"/About"}className='nav'>About</Link>
+                    <Link to={"/Contact"}className='nav'>Contact</Link>
+                    <Link to={"/Courses"}className='nav'>Courses</Link>
+                    <Link to={"/NotFound"}className='nav'>NotFound</Link>
+                    <Link to={"/Admission"}className='navitem'>Apply Now </Link>
 
         
                 </nav>

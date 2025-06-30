@@ -4,13 +4,12 @@ const HomePage = () => {
     return( 
         <div id="root">
         <div className="root">
-        
-        <div className="page-container" style={{overflow:"auto"}}>
             <Header/>
                 <div className="hero1">
-                     <div>
-                    <img className="hero2"src="https://vck-ojt.vercel.app/assets/college-banner-Cz0xylpt.png"></img>
+                     <div className="page-container" style={{overFlow:"auto"}}>
+                    <img className="hero2"src="\Images\college-banner (1).png"></img>
                 </div>
+
                 <div className="hero3">
             <h1>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
@@ -30,14 +29,13 @@ const HomePage = () => {
             </ul>
             <h2>Campus Life & Facilities</h2>
             <hr></hr>
-            <img alt="Students studying in library" src="https://vck-ojt.vercel.app/assets/students-studying-DbLGuwF_.jpeg" height={200} width={399}></img>  
-             <img alt="Students playing in Campus" src="https://vck-ojt.vercel.app/assets/campus-life-Crkero7B.jpg" height={200} width={399}></img>
+            <img alt="Students studying in library" src="\Images\students-studying.jpeg" height={200} width={399}></img>  
+             <img alt="Students playing in Campus" src="\Images\campus-life.jpg" height={200} width={399}></img>
              <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
              <div className="box2">
                 <p>Ready to explore our courses?</p>
                 <a href="/courses" className="navitem">Explore Courses</a>
              </div>
-        </div>
         </div>
         </div>
     
