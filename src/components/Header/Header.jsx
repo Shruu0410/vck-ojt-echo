@@ -1,24 +1,23 @@
-import {Link} from 'react-router-dom'
-import './Header.css'
-const Header = () => {
-    return( 
-            <div>
-            <header className='header1'>
-                <nav>
-                    <a className='navbar'>Vivekanand College</a>
-                    <Link to={"/Home"} className='nav'>Home</Link>
-                    <Link to={"/About"}className='nav'>About</Link>
-                    <Link to={"/Contact"}className='nav'>Contact</Link>
-                    <Link to={"/Courses"}className='nav'>Courses</Link>
-                    <Link to={"/NotFound"}className='nav'>NotFound</Link>
-                    <Link to={"/Admission"}className='navitem'>Apply Now </Link>
+import { Link } from 'react-router-dom';
+import './Header.css';
 
-        
-                </nav>
-        
-            </header>
-        </div>
-    )  
-}
+const Header = () => {
+  return (
+    <div className="header1">
+      <header className="site-header">
+        <div className="brand">Vivekanand College</div>
+        <nav className="nav-links">
+          <Link to="/home" className="Links">Home</Link>
+          <Link to="/about" className="Links">About</Link>
+          <Link to="/contact" className="Links">Contact</Link>
+          <Link to="/courses" className="Links">Courses</Link>
+          <Link to="/admission" className="Links">Admission</Link>
+          <Link to="/notfound" className="Links">NotFound</Link>
+          <Link to="/admission" className="apply-btn">Apply Now!</Link>
+        </nav>
+      </header>
+    </div>
+  );
+};
 
 export default Header;

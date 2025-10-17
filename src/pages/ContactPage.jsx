@@ -1,12 +1,8 @@
-import Header from "../components/Header/Header";
-
 const ContactPage =() =>{
     return(
-        <div className="root">
-            
-           <Header/>
-           <div className="page-container" style={{overFlow:"auto"}}>
-            <h1> Contact Us</h1>
+        <div className="page-container" style={{overflow:"auto"}}>
+           {/* <Header></Header> */}
+            <h1>Contact Us</h1>
             <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
             <h2>General Enquiries</h2>
             <hr></hr>
@@ -29,15 +25,12 @@ const ContactPage =() =>{
             <h2>Find Us on the Map</h2>
             <hr></hr>
 
-            <a href="https://www.google.com/maps/dir/16.787126,74.2592047/2130,+E+Ward,+Tarabai+Park,+Kolhapur,+Maharashtra+416003/@16.7123339,74.1562079,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc100664ad0e191:0x4b2af9253659bbec!2m2!1d74.2386116!2d16.7123415?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"><u>View on Google Maps</u></a>
+            <a href="https://www.google.com/maps/dir/16.787126,74.2592047/2130,+E+Ward,+Tarabai+Park,+Kolhapur,+Maharashtra+416003/@16.7123339,74.1562079,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc100664ad0e191:0x4b2af9253659bbec!2m2!1d74.2386116!2d16.7123415?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><u>View on Google Maps</u></a>
             <h2>Send Us a Message</h2>
             <hr></hr>
             <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
         </div>
-        </div>
-    
-
-    )
+    );
 }
 
 
